@@ -35,7 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 <!-- Logistics Company based in Houston, TX called “Frederick Companies”.
 Have hundreds of warehouses all over the united states
 Have hundreds of units for Full Truckload Dry Van, Reefer Trucks, LTL and more.
