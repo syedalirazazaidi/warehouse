@@ -5,11 +5,14 @@ export default function Culture() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="w-[500px] mb-6 font-extrabold text-[24px] text-[#222222]">
-            We promote a culture of growth & opportunities for our company as
-            well our employees
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="w-[500px] mb-2 font-extrabold text-[24px] text-[#222222]">
+            We promote a culture of growth & <br /> opportunities for our
+            company as well our employees
           </h1>
+          <div className="flex justify-center mb-4">
+            <div className="h-1 w-24 bg-[#A93838] rounded" />
+          </div>
           <div className=" font-normal text-[13px] text-[#222222]">
             <p>
               {" "}
