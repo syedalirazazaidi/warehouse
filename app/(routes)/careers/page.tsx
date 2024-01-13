@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../../components/sections/header";
 import BannerCareer from "../../../components/pages/careers/banner";
 import Job from "../../../components/pages/careers/currentjob";
+import Culture from "../../../components/pages/careers/culture";
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
       </div>
       <BannerCareer />
       <Job />
+      <Culture />
     </main>
   );
 }
