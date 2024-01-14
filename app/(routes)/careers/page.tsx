@@ -4,6 +4,7 @@ import BannerCareer from "../../../components/pages/careers/banner";
 import Job from "../../../components/pages/careers/currentjob";
 import Culture from "../../../components/pages/careers/culture";
 import Team from "../../../components/pages/careers/team";
+import Trusted from "../../../components/pages/careers/trustedby";
 
 export default function page() {
   return (
@@ -15,6 +16,7 @@ export default function page() {
       <Job />
       <Culture />
       <Team />
+      <Trusted />
     </main>
   );
 }
