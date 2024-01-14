@@ -3,6 +3,7 @@ import Header from "../../../components/sections/header";
 import BannerCareer from "../../../components/pages/careers/banner";
 import Job from "../../../components/pages/careers/currentjob";
 import Culture from "../../../components/pages/careers/culture";
+import Team from "../../../components/pages/careers/team";
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <BannerCareer />
       <Job />
       <Culture />
+      <Team />
     </main>
   );
 }
