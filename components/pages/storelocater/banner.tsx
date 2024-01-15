@@ -23,12 +23,6 @@ export default function BannerLocator() {
             <h2 className="uppercase z-50 text-[30px]  md:text-[50px] font-extrabold text-[#FFFFFF] md:w-[623px] md:h-[122px] leading-[50px]">
               our locations
             </h2>
-
-            <p className="z-50 font-medium md:text-[18px] text-[#FFFFFF] md:w-[663px] md:h-[44px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              ultrices urna non magna faucibus elementum. Pellentesque venenatis
-              odio quam,
-            </p>
           </div>
         </div>
       </section>
