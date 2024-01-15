@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../../../public/contactbg.svg";
+import contact from "../../../public/newcontactbg.svg";
 
 export default function BannerContact() {
   return (
@@ -21,8 +21,8 @@ export default function BannerContact() {
       <section className="text-gray-600 body-font mb-24">
         <div className="md:container  px-5 py-24 md:mx-auto">
           <div className="flex flex-col text-center w-full mb-10">
-            <h2 className="z-50 text-[30px]  md:text-[50px] font-extrabold text-[#FFFFFF] md:w-[623px] md:h-[122px] leading-[50px]">
-              About us
+            <h2 className="uppercase z-50 text-[30px]  md:text-[50px] font-extrabold text-[#FFFFFF] md:w-[623px] md:h-[122px] leading-[50px]">
+              Contact us
             </h2>
 
             <p className="z-50 font-medium md:text-[18px] text-[#FFFFFF] md:w-[663px] md:h-[44px]">
@@ -31,11 +31,11 @@ export default function BannerContact() {
               odio quam,
             </p>
           </div>
-          <div className="z-50">
+          {/* <div className="z-50">
             <button className=" flex mx-auto  text-white bg-[#A93838] border-0 py-2 px-6 md:py-2 md:px-8 focus:outline-none hover:bg-[#A93838] rounded-sm text-sm md:text-lg">
               READ MORE
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
     </section>

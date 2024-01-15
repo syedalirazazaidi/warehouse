@@ -7,6 +7,8 @@ import Shipment from "@/components/sections/shipment";
 import Shipping from "@/components/sections/shipping";
 import Offer from "@/components/sections/weoffer";
 import React from "react";
+import ContractTrusted from "../../../components/pages/contactus/contracttrust";
+import ContactForm from "../../../components/pages/contactus/form";
 
 export default function page() {
   return (
@@ -14,14 +16,16 @@ export default function page() {
       <div className="absolute top-0  z-50 w-full">
         <Header />
       </div>
+
       <BannerContact />
-      <History />
+      <ContactForm />
+      <ContractTrusted />
+      {/* <History />
       <Offer />
       <Shipment />
       <AboutUs />
       <Shipping />
-      <Blog />
-     
+      <Blog /> */}
     </main>
   );
 }

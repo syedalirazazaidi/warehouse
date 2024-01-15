@@ -45,9 +45,12 @@ export default function Header() {
        
           "
           >
-            <a className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer">
+            <Link
+              href="/"
+              className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer"
+            >
               HOME
-            </a>
+            </Link>
             <Link
               href="/aboutus"
               className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer"
@@ -55,9 +58,9 @@ export default function Header() {
               ABOUT US
             </Link>
 
-            <a className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer">
+            {/* <a className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer">
               SERVICES
-            </a>
+            </a> */}
             <Link
               href="/news"
               className="lg:mr-10 xl:mr-16 text-[#FFFFFF] font-semibold text-[12px] hover:text-gray-100 hover:cursor-pointer"
