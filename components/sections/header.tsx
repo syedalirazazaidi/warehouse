@@ -25,13 +25,27 @@ export default function Header() {
               <Sheet>
                 <SheetTrigger asChild>
                   <div className=" cursor-pointer">
-                    <Menu color="#FF5B46" width={32} />
+                    <Menu color="#FF5B46" size={36} />
                   </div>
                 </SheetTrigger>
-                <SheetContent>
-                  <SheetHeader>
-                    <SheetTitle>Edit profile...</SheetTitle>
-                    <SheetDescription>Hi develoepr</SheetDescription>
+                <SheetContent className="bg-red-400 ">
+                  <SheetHeader className="mt-10">
+                    <SheetTitle className="hover:text-red-100 cursor-pointer hover:underline">
+                      <Link href="/">Home</Link>
+                    </SheetTitle>
+                    <SheetTitle className="hover:text-red-100 cursor-pointer hover:underline">
+                      <Link href="/aboutus">About us</Link>
+                    </SheetTitle>
+                    <SheetTitle className="hover:text-red-100 cursor-pointer hover:underline">
+                      <Link href="/news">News</Link>
+                    </SheetTitle>
+                    <SheetTitle className="hover:text-red-100 cursor-pointer hover:underline">
+                      <Link href="/careers">Careers</Link>
+                    </SheetTitle>
+                    <SheetTitle className="hover:text-red-100 cursor-pointer hover:underline">
+                      <Link href="/contact">Contact us</Link>
+                    </SheetTitle>
+                    {/* <SheetDescription>Hi develoepr</SheetDescription> */}
                   </SheetHeader>
                 </SheetContent>
               </Sheet>
