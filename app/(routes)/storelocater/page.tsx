@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../../components/sections/header";
 import BannerLocator from "../../../components/pages/storelocater/banner";
+import Map from "../../../components/pages/storelocater/map";
 
 export default function Locater() {
   return (
@@ -9,6 +10,7 @@ export default function Locater() {
         <Header />
       </div>
       <BannerLocator />
+      <Map />
     </main>
   );
 }
