@@ -1,10 +1,13 @@
+"use client";
 import { Search } from "lucide-react";
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import warehouse from "../../../public/Warehouse.svg";
-export default function Map() {
+export default function MapLocation() {
+  const [query, setQuery] = useState("");
+  const autoCompleteRef = useRef(null);
   return (
     <section className="text-gray-600 body-font relative">
       <h2 className="flex justify-center mt-5 font-extrabold text-[24px] text-[#222222] uppercase">
@@ -14,7 +17,13 @@ export default function Map() {
         <div className="h-[2px] w-24 bg-[#A93838] rounded" />
       </div>
       <div className=" flex justify-center mx-auto container my-4 relative">
-        <Input placeholder="Enter location and zip code" className="pl-2 " />
+        <Input
+          ref={autoCompleteRef}
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Enter location and zip code"
+          className="pl-2 "
+        />
         <Search className="absolute right-10 top-2.5 h-4 w-6 text-muted-foreground" />
       </div>
       <div className="container  px-5 gap-12 mt-12 pb-24 mx-auto  flex sm:flex-nowrap flex-wrap">
